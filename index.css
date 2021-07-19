@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.banner video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 18rem;
+    width: 32rem;
+    text-align: center;
+    animation-name: bannerContent;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+/*@keyframes bannerContent {
+    form{
+        font-size: 0rem;
+    }
+    to{
+        font-size: 1.5rem;
+    }
+    
+}  -------> Animation will not work if there is a background video */
+.banner .content{
+    position: relative;
+    z-index: 1;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h1{
+    font-size: 4rem;
+    color: #fff;
+}
+.kashmir{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+.kashmirParallax{
+    width: 100%;
+    height: 90vh;
+   background-image: url(https://www.desktopbackground.org/download/2560x1440/2012/08/24/441765_lidder-river-jammu-kashmir-india-flood-hd-wallpaper-jpg_3000x2000_h.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.goa{ 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+
+}
+.goaParallax{
+    width: 100%;
+    height: 90vh;
+   background-image: url(https://images.unsplash.com/photo-1587922546307-776227941871?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z29hfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.varanasi{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+.varanasiParallax{
+    width: 100%;
+    height: 90vh;
+   background-image: url(https://wallpaperaccess.com/full/2715083.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.rajasthan{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+
+}
+.rajasthanParallax{
+    width: 100%;
+    height: 90vh;
+   background-image: url(https://wallpapercave.com/wp/wp4021293.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+.kerala{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 12rem;
+    margin-bottom: 12rem;
+}
+.keralaParallax{
+    width: 100%;
+    height: 90vh;
+   background-image: url(https://i.pinimg.com/originals/5e/e2/28/5ee228546b2a8cf28f7329bc22f7aa55.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.finaldiv{
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.89);
+    margin: 0;
+    text-decoration: none;
+}
+.quote{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.815);
+    animation-name: A1;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+a{
+    color: rgb(129, 107, 192);
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.815);
+}
+@keyframes A1{
+    form{
+        font-size: 0.1rem;
+    }
+    to{
+        font-size: 1.2rem;
+    }
+}
